@@ -28,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
     padding: 20px;
 }
@@ -41,7 +42,7 @@ body {
 }
 
 .left-column {
-    background-color: #444;
+    background-color: #404040;
     color: #fff;
     padding: 2rem;
     display: flex;
@@ -314,4 +315,13 @@ ul {
     .intro {
         display: flex;
     }
+}
+
+footer {
+    max-width: 1200px;
+    background: white;
+}
+
+footer p {
+    padding: 0 10px
 }
