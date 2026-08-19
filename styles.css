@@ -93,6 +93,39 @@ ul {
     font-size: 0.9rem;
 }
 
+.hard-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    margin: 0 0 1.2rem;
+}
+
+.skill-group h4 {
+    margin: 0 0 0.2rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.skill-group p {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #fff;
+}
+
+.languages {
+    margin: 0 0 1.2rem;
+}
+
+.languages p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #fff;
+}
+
 .contact {
     list-style: none; /* Removes bullets */
     padding: 0 0 1.2rem 0; /* Removes default padding */
@@ -322,13 +355,4 @@ ul {
     .intro {
         display: flex;
     }
-}
-
-footer {
-    max-width: 1200px;
-    background: white;
-}
-
-footer p {
-    padding: 0 10px
 }
